@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -11,6 +12,13 @@ export default {
         secondry:'#f7ebf4',
         contactSecondry:'#844375',
         'custom-pink': 'rgb(173, 49, 144)',
+      },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
       }
     },
   },

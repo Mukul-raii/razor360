@@ -6,7 +6,7 @@
 @layer base {
   body {
     color: #3a032d;
-    background-color: #3a032d; /* Optional: Apply to entire background */
+    background-color: white; /* Optional: Apply to entire background */
     font-family: sans-serif;
   }
 }

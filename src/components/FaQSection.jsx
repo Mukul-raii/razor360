@@ -36,7 +36,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <div className="bg-orange-50 py-16 mt-24 px-4">
+    <div className="bg-orange-50 py-16 mt-40 px-4">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-purple-950 mb-12">
           Frequently Asked Questions
@@ -62,7 +62,7 @@ const FAQSection = () => {
                 </span>
               </button>
               {openIndex === index && (
-                <div className="mt-4 text-gray-600 pl-4">
+                <div className="mt-4 text-gray-600 text-base pl-4">
                   {faq.answer}
                 </div>
               )}

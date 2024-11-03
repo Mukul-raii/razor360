@@ -1,6 +1,3 @@
-
-
-
 import React, { useState } from 'react';
 
 const TestimonialsSection = () => {
@@ -53,95 +50,88 @@ const TestimonialsSection = () => {
       }
     ]
   };
-  
 
   const [activeTab, setActiveTab] = useState('seoExperts');
   const [currentSlide, setCurrentSlide] = useState(0);
-
   const currentTestimonials = testimonials[activeTab];
 
   return (
-    <div className=' flex justify-center px-64'>
- 
-<div className=' bg-secondry w-full text-primary rounded-b-lg flex flex-col items-center justify-center'>
-    <div className="w-full h-[207px] mx-auto  bg-primary justify-evenly  flex flex-col rounded-t-lg">
-      {/* Header */}
-
-      {/* Tab Buttons */}
-      <div className="flex flex-col justify-center items-center gap-4 ">
-      <h2 className="text-4xl font-bold text-white  text-center ">
-        What others have to say about dofollow.com
-      </h2>
-      <div >
-
-        <button
-          onClick={() => {
-            setActiveTab('seoExperts');
-            setCurrentSlide(0);
-          }}
-          className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
-            ${activeTab === 'seoExperts' 
-              ? 'bg-yellow-500 text-primary' 
-              : 'bg-contactSecondry text-white'}`}
-        >
-          SEO Experts
-        </button>
-        <button
-          onClick={() => {
-            setActiveTab('customers');
-            setCurrentSlide(0);
-          }}
-          className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
-            ${activeTab === 'customers' 
-              ? 'bg-yellow-500 text-primary' 
-              : 'bg-contactSecondry text-white'}`}
-        >
-          Customers
-        </button>
-      </div>
-
-      </div>
-      </div>
-      {/* Testimonial Content */}
-      <div className="relative min-h-[400px] w-3/4 flex flex-col justify-center items-center gap-12 rounded-b-lg">
-        <div className="text-center">
-          <p className="text-xl mb-8">
-            "{currentTestimonials[currentSlide].text}"
-          </p>
-          <div className="flex items-center justify-center gap-4 mt-16">
-            <img
-              src={currentTestimonials[currentSlide].avatar}
-              alt={currentTestimonials[currentSlide].name}
-              className="w-12 h-12 rounded-full"
-            />
-            <div className="text-left">
-              <p className="font-medium">
-                {currentTestimonials[currentSlide].name}
-              </p>
-              <p className="text-primary">
-                {currentTestimonials[currentSlide].role}
-              </p>
+    <div className="flex justify-center px-4 max-sm:px-0 md:px-16 lg:px-64">
+      <div className="bg-secondry max-sm:bg-primary w-full text-primary rounded-b-lg flex flex-col items-center justify-center">
+        <div className="w-full h-[207px] mx-auto bg-primary flex flex-col rounded-t-lg">
+          {/* Header */}
+          <div className="flex flex-col  justify-center items-center p-12 gap-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white text-center">
+              What others have to say about razor360°
+            </h2>
+            <div>
+              <button
+                onClick={() => {
+                  setActiveTab('seoExperts');
+                  setCurrentSlide(0);
+                }}
+                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
+                  ${activeTab === 'seoExperts' 
+                    ? 'bg-yellow-500 text-primary' 
+                    : 'bg-contactSecondry text-white'}`}
+              >
+                SEO Experts
+              </button>
+              <button
+                onClick={() => {
+                  setActiveTab('customers');
+                  setCurrentSlide(0);
+                }}
+                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
+                  ${activeTab === 'customers' 
+                    ? 'bg-yellow-500 text-primary' 
+                    : 'bg-contactSecondry text-white'}`}
+              >
+                Customers
+              </button>
             </div>
           </div>
         </div>
-         {/* Dot Navigation */}
-      <div className="flex justify-center gap-2 mt-8">
-        {currentTestimonials.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentSlide(index)}
-            className={`w-2 h-2 rounded-full transition-colors
-              ${currentSlide === index 
-                ? 'bg-purple-500' 
-                : 'bg-purple-300'}`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
-      </div>
-      </div>
 
-     
-    </div>
+        {/* Testimonial Content */}
+        <div className="relative min-h-[400px] w-full sm:w-3/4 flex flex-col justify-center items-center gap-12 rounded-b-lg">
+          <div className="text-center px-4 max-sm:bg-secondry max-sm:w-4/5 max-sm:rounded-md max-sm:p-3  mt-16">
+            <p className="text-lg max-sm:text-base mb-8">
+              "{currentTestimonials[currentSlide].text}"
+            </p>
+            <div className="flex items-center justify-center gap-4 mt-16 max-sm:mt-8">
+              <img
+                src={currentTestimonials[currentSlide].avatar}
+                alt={currentTestimonials[currentSlide].name}
+                className="w-12 h-12 rounded-full"
+              />
+              <div className="text-left">
+                <p className="font-medium">
+                  {currentTestimonials[currentSlide].name}
+                </p>
+                <p className="text-primary">
+                  {currentTestimonials[currentSlide].role}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Dot Navigation */}
+          <div className="flex justify-center gap-2 mt-8 pb-5">
+            {currentTestimonials.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentSlide(index)}
+                className={`w-2 h-2 rounded-full transition-colors
+                  ${currentSlide === index 
+                    ? 'bg-purple-500' 
+                    : 'bg-purple-300'}`}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

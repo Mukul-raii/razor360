@@ -29,7 +29,7 @@ export default function Component() {
 
         {/* Navigation */}
         <nav className="border-y border-[#844375] py-4 w-3/4">
-          <ul className="flex flex-wrap justify-center text-white gap-x-8 gap-y-4">
+          <ul className="flex flex-wrap justify-center max-sm:flex-col max-sm:text-center text-white gap-x-8 gap-y-4">
             <li><a href="#" className="hover:text-yellow-300  transition-colors">Home</a></li>
             <li><a href="#" className="hover:text-yellow-300  transition-colors">Link Building Service</a></li>
             <li><a href="#" className="hover:text-yellow-300  transition-colors">White Label Link Building</a></li>
@@ -40,8 +40,8 @@ export default function Component() {
           </ul>
         </nav>
 
-        <div className="text-center flex flex-row gap-6">
-  <p>© dofollow.com. All rights reserved.</p>
+        <div className="text-center flex flex-row  gap-6">
+  <p>© razor360° All rights reserved.</p>
  
     <a href="#" className="hover:text-yellow-300  transition-colors">Privacy Policy</a>
     <a href="#" className="hover:text-yellow-300  transition-colors">Terms and Conditions</a>

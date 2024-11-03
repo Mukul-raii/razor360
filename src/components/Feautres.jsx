@@ -32,7 +32,7 @@ function Features() {
               <p className="text-lg">{feature.description}</p>
             </div>
             <div className={`md:w-1/2 mt-8 md:mt-0 ${index % 2 === 0 ? '' : 'md:order-1'}`}>
-              <img src={feature.image} alt={feature.title} className="rounded-lg w-[520px] h-[300px]" />
+              <img src={feature.image} alt={feature.title} className="rounded-lg w-full h-auto" />
             </div>
           </div>
         ))}

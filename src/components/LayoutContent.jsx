@@ -3,7 +3,7 @@ import './LayoutContent.module.css';
 
 function LayoutContent() {
   return (
-    <div className="parent-container">
+    <div className="parent-container flex flex-col md:flex-row">
       <Section
         title="Boost your rankings and reach your audience"
         content="Be the standout choice in a saturated vertical. No more struggling to get visibility in a sea of established brands with higher authority. We build links from sites with 80-90+ DR that help Google (and your buyers) see you as a trusted source."

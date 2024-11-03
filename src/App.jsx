@@ -17,11 +17,10 @@ import FooterSection from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="">
       <Navbar />
       <Hero />
       <BrandTicker />
-
       <Features />
       <Section4 />
       <DifferentiationSection />

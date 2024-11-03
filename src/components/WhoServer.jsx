@@ -41,13 +41,13 @@ const WhoWeServeSection = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <h3 className="text-purple-600 font-medium mb-4">
+          <h3 className="text-purple-600   font-medium mb-4">
             WHO WE'RE FOR
           </h3>
-          <h2 className="text-4xl font-bold text-purple-950 mb-2">
+          <h2 className="text-4xl max-sm:text-2xl font-bold text-purple-950 mb-2">
             We only work with
           </h2>
-          <h2 className="text-4xl font-bold text-purple-950">
+          <h2 className="text-4xl  max-sm:text-2xl font-bold text-purple-950">
             B2B SaaS companies who:
           </h2>
         </div>
@@ -60,7 +60,7 @@ const WhoWeServeSection = () => {
                 {item.icon}
               </div>
               <div className="flex-grow">
-                <p className="text-lg text-purple-950 font-medium">
+                <p className="text-lg max-sm:text-base text-purple-950 font-medium">
                   {item.text}
                 </p>
               </div>

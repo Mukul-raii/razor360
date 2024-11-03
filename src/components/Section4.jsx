@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section4 = () => {
   return (
-    <div className="bg-orange-50 py-16 flex justify-center">
+    <div className="bg-orange-50 max-sm:bg-white py-16 flex justify-center ">
       <div className="max-w-5xl w-full flex flex-col md:flex-row items-center bg-white rounded-lg shadow-lg p-8">
         {/* Left Section - Testimonial */}
         <div className="md:w-1/2 p-4">
