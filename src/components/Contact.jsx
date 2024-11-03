@@ -11,10 +11,11 @@ const ContactSection = () => {
         INTERESTED?
       </h3>
       <h2 className="text-4xl max-sm:text-3xl font-bold my-3 text-purple-950 ">
-        Let's talk links!
+      Lets’ talk With our Experts 
       </h2>
       <button className="bg-yellow-500 w-[230px] hover:bg-yellow-600 text-purple-950 font-semibold mt-7 py-3 px-8 rounded-md transition-colors">
-        Request Pricing
+      Connect with us 
+
       </button>
 
       {/* Bottom section with checkmarks */}
@@ -23,15 +24,18 @@ const ContactSection = () => {
         <div className="flex flex-col md:flex-row justify-center items-center max-sm:items-start gap-6 text-white">
           <div className="flex items-center justify-center text-center gap-2">
             <Check className="w-5 h-5" />
-            <span>Your SEO setup</span>
+            <span>
+Your Business
+</span>
           </div>
           <div className="flex items-center justify-center text-center gap-2">
             <Check className="w-5 h-5" />
-            <span>What you want to achieve</span>
+            <span>Strategies used</span>
           </div>
           <div className="flex items-center justify-center text-center gap-2">
             <Check className="w-5 h-5" />
-            <span>Whether razo360° is the right team for you</span>
+            <span>Whether razo360.com is the right team for you
+            </span>
           </div>
         </div>
       </div>

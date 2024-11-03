@@ -16,7 +16,7 @@ const Section4 = () => {
      
           <div className="flex items-center mt-4">
             <img
-              src="https://via.placeholder.com/50"
+              src="https://media.licdn.com/dms/image/v2/D5603AQG66d4-rdcceQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724293812471?e=1736380800&v=beta&t=AfJ3IhUih8JewyxxCjdU3eCk-Hw4kkQmlwEWag4g9Go"
               alt="Trevor Larson"
               className="w-10 h-10 rounded-full mr-3"
             />

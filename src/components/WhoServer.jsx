@@ -12,23 +12,23 @@ const WhoWeServeSection = () => {
   const criteria = [
     {
       icon: <Target className="w-8 h-8" />,
-      text: "Have an established content strategy"
+      text: "Who have Inconsistent Revenue in your Business"
     },
     {
       icon: <FileText className="w-8 h-8" />,
-      text: "Actively produce high-quality content"
+      text: "Lack of Leads Per month"
     },
     {
       icon: <Link className="w-8 h-8" />,
-      text: "Are willing to link to informative content - not just commercial pages"
+      text: "Troubles in Complex Funnels and managing ads"
     },
     {
       icon: <BarChart2 className="w-8 h-8" />,
-      text: "Have figured out their KPI indicators"
+      text: "Wants to get predictable appointments for your business daily"
     },
     {
       icon: <Share2 className="w-8 h-8" />,
-      text: "Share our mindset towards link building"
+      text: "Are interested in a long-term partnership"
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -45,10 +45,10 @@ const WhoWeServeSection = () => {
             WHO WE'RE FOR
           </h3>
           <h2 className="text-4xl max-sm:text-2xl font-bold text-purple-950 mb-2">
-            We only work with
+          We only work with 
           </h2>
           <h2 className="text-4xl  max-sm:text-2xl font-bold text-purple-950">
-            B2B SaaS companies who:
+          B2b and B2c Companies
           </h2>
         </div>
 

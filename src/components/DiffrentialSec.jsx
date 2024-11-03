@@ -18,7 +18,7 @@ const DifferentiationSection = () => {
     { image: d3, title: "Outreach Campaigns", description: "We provide Fresh and strategic outreach campaigns focused on finding new and creative ways to connect with potential prospects.  Using different mode of reach outs like Email , Whatsapp , Instagram , Linked-in , reddit etc" },
 
     { image: d5, title: "Prospect Research:", description: "We offer a prospect research service that focuses on identifying high-potential leads. By gathering insights on interests, needs, and behavior, we help you tailor your outreach for better results. Our service ensures you connect with the right prospects in a meaningful way." },
-    { image: d6, title: "No lock-in contracts", description: "We recommend a 6-month engagement but don’t force commitment." },
+    { image: d6, title: "No lock-in contracts", description: " We recommend working together for at least 6 months to see results, but we won’t force you to commit. Our clients come back month after month because they want to." },
   ];
 
   return (

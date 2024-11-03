@@ -32,6 +32,14 @@ export default function Contact() {
               <h1 className="text-5xl max-sm:text-3xl font-bold max-sm:mb-2 mb-8">
                 Get in Touch with <br/> Our Team <img src="" alt="" srcset="" />
               </h1>
+              <button
+  className="bg-yellow-500 w-full sm:w-auto text-purple-900 px-8 max-sm:px-3 py-3 font-semibold hover:bg-yellow-400 transition-colors rounded-sm"
+  style={{ boxShadow: "0 8px 38px rgba(171, 28, 187, 0.6)" }}
+  onClick={() => window.open("https://wa.me/917907682565", "_blank")}
+>
+Contact Us
+</button>
+
             </div>
             <div className="space-y-4 max-sm:space-y-1">
               <p className="text-gray-300">

@@ -1,18 +1,18 @@
 
 import { Facebook, Linkedin ,Twitter, Instagram} from "lucide-react"
 import logo from '../assets/With-Glow-Logo.png';
-
+import logo2 from '../assets/logo12.png'
 export default function Component() {
   return (
     <footer   className="bg-primary text-[#b894c0] py-12 px-4  ">
       <div className="container mx-auto max-w-6xl space-y-8 flex flex-col items-center">
         {/* Logo and Tagline */}
         <div className="text-center space-y-2">
-          <a href="/" className="inline-block">
-    
-            <img src={logo} alt="razo360° Logo" className="w-52" />
+        <a href="/" className="flex flex-row items-center justify-center gap-0">
+  <img src={logo2} className="w-14 -mr-6" alt="" /> {/* Adjust the margin here */}
+  <img src={logo} alt="razo360° Logo" className="w-52" />
+</a>
 
-          </a>
           <p className=" max-w-xl mx-auto">
             Strategically outrank your competitors with premium links from the web's best sites.
           </p>
@@ -42,8 +42,6 @@ export default function Component() {
         <nav className="border-y border-[#844375] py-4 w-3/4">
           <ul className="flex flex-wrap justify-center max-sm:flex-col max-sm:text-center text-white gap-x-8 gap-y-4">
             <li><a href="#" className="hover:text-yellow-300  transition-colors">Home</a></li>
-            <li><a href="#" className="hover:text-yellow-300  transition-colors">Link Building Service</a></li>
-            <li><a href="#" className="hover:text-yellow-300  transition-colors">White Label Link Building</a></li>
             <li><a href="#" className="hover:text-yellow-300  transition-colors">How We Work</a></li>
             <li><a href="#" className="hover:text-yellow-300  transition-colors">Blog</a></li>
             <li><a href="#" className="hover:text-yellow-300  transition-colors">About Us</a></li>

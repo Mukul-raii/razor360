@@ -11,22 +11,22 @@ const TestimonialsSection = () => {
         id: 1,
         text: "Razo360 is a great example of an agency that understands modern link building and digital strategies.",
         name: "Amit Choudhary",
-        role: "Growth Advisor | ex-Shopify, G2, Atlassian",
-        avatar: "https://randomuser.me/api/portraits/men/32.jpg"
+        role: "Business Owner",
+        avatar:""
       },
       {
         id: 2,
         text: "I was recently challenged by the Razo360 team to review their approach to link building. They follow the best practices!",
         name: "Rajiv Mehta",
-        role: "Freelance SEO | Owner of SEOjobs.com",
-        avatar: "https://randomuser.me/api/portraits/men/44.jpg"
+        role: "Business Owner",
+        avatar:""
       },
       {
         id: 3,
         text: "These professionals are the masters when it comes to user-centric link building and SEO innovation.",
         name: "Suresh Naidu",
-        role: "Growth Advisor",
-        avatar: "https://randomuser.me/api/portraits/men/68.jpg"
+        role: "Business Owner",
+        avatar: ""
       }
     ],
     customers: [
@@ -34,22 +34,22 @@ const TestimonialsSection = () => {
         id: 1,
         text: "Razo360 delivers high-quality backlinks and an easy, hands-off experience. Plus, they ensure our site stays safe from any Google penalties.",
         name: "Ravi Shekhar",
-        role: "CEO – Testimonial Hero",
-        avatar: "https://randomuser.me/api/portraits/men/85.jpg"
+        role: "Freelancer",
+        avatar: ""
       },
       {
         id: 2,
         text: "Razo360 crafted a phenomenal link-building strategy that helped us land on high-profile sites like HubSpot. Our traffic and rankings have improved significantly!",
         name: "Ankit Patel",
-        role: "CEO – Great Lakes Advisory",
-        avatar: "https://randomuser.me/api/portraits/men/52.jpg"
+        role: "Freelancer",
+        avatar: ""
       },
       {
         id: 3,
         text: "Working with Razo360 was a game-changer. Our domain authority skyrocketed within a few months, and they were always flexible to our specific needs.",
         name: "Vikram Singh",
-        role: "CEO – KeyCommerce",
-        avatar: "https://randomuser.me/api/portraits/men/77.jpg"
+        role: "Freelancer",
+        avatar:""
       }
     ]
   };
@@ -73,7 +73,7 @@ const TestimonialsSection = () => {
                   activeTab === 'seoExperts' ? 'bg-yellow-500 text-primary' : 'bg-contactSecondry text-white'
                 }`}
               >
-                SEO Experts
+                Business Owner
               </button>
               <button
                 onClick={() => setActiveTab('customers')}
@@ -81,7 +81,7 @@ const TestimonialsSection = () => {
                   activeTab === 'customers' ? 'bg-yellow-500 text-primary' : 'bg-contactSecondry text-white'
                 }`}
               >
-                Customers
+                Freelancer
               </button>
             </div>
           </div>
@@ -103,7 +103,7 @@ const TestimonialsSection = () => {
                   <div className="flex items-center justify-center gap-4 mt-16 max-sm:mt-8">
                     <img
                       src={testimonial.avatar}
-                      alt={testimonial.name}
+                     
                       className="w-12 h-12 rounded-full"
                     />
                     <div className="text-left">
