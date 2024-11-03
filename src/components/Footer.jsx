@@ -14,7 +14,8 @@ export default function Component() {
 </a>
 
           <p className=" max-w-xl mx-auto">
-            Strategically outrank your competitors with premium links from the web's best sites.
+     
+          Boost visibility, drive traffic, convert leads – let's transform your Marketing and Sales together.
           </p>
         </div>
 

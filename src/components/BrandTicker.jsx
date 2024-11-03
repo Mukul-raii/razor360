@@ -15,6 +15,12 @@ function BrandTicker() {
     { name: 'Aspiration', logo: logo4 },
     { name: 'Vonage', logo:logo5 },
     { name: 'Resume.io', logo: logo6 },
+    { name: 'LegalZoom', logo: logo1 },
+    { name: 'Surfshark', logo: logo2 },
+    { name: 'Guru', logo: logo3 },
+    { name: 'Aspiration', logo: logo4 },
+    { name: 'Vonage', logo:logo5 },
+    { name: 'Resume.io', logo: logo6 },
   ];
 
   return (
