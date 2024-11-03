@@ -16,7 +16,7 @@ function Navbar() {
           <div className="flex-shrink-0">
             <img src={logo} alt="razor360° Logo" className="w-40" />
           </div>
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4 text-white">
             <a href="#" className="hover:text-yellow-300 px-3 py-2">Features</a>
             <a href="#" className="hover:text-yellow-300 px-3 py-2">Pricing</a>
             <a href="#" className="hover:text-yellow-300 px-3 py-2">About</a>

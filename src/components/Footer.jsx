@@ -8,7 +8,7 @@ export default function Component() {
         {/* Logo and Tagline */}
         <div className="text-center space-y-4">
           <a href="/" className="inline-block">
-            <h2 className="text-white text-3xl font-bold">razor360°</h2>
+            <h2 className="text-white text-3xl font-bold">razo360°</h2>
           </a>
           <p className=" max-w-xl mx-auto">
             Strategically outrank your competitors with premium links from the web's best sites.
@@ -41,7 +41,7 @@ export default function Component() {
         </nav>
 
         <div className="text-center flex flex-row  gap-6">
-  <p>© razor360° All rights reserved.</p>
+  <p>© razo360° All rights reserved.</p>
  
     <a href="#" className="hover:text-yellow-300  transition-colors">Privacy Policy</a>
     <a href="#" className="hover:text-yellow-300  transition-colors">Terms and Conditions</a>

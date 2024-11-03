@@ -72,10 +72,10 @@ const FAQSection = () => {
 
         {/* Call to action at bottom */}
         <div className="bg-primary rounded-lg mt-12 py-8 px-6 text-center">
-          <h3 className="text-2xl font-bold text-white mb-6">
+          <h3 className="text-2xl max-sm:text-lg font-bold text-white mb-6">
             Still have questions?
           </h3>
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-purple-950 font-semibold py-3 px-8 rounded-md transition-colors">
+          <button className="bg-yellow-500 hover:bg-yellow-600 text-purple-950 font-semibold py-3 px-8 max-sm:py-2 max-sm:px-4 rounded-md transition-colors">
             Request Pricing
           </button>
         </div>
