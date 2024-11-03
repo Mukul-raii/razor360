@@ -69,8 +69,9 @@ const FAQSection = () => {
             Still have questions?
           </h3>
           <button style={{ boxShadow: "0 8px 38px rgba(171, 28, 187, 0.6)" }}
-          className="bg-yellow-500 hover:bg-yellow-600 text-purple-950 font-semibold py-3 px-8 max-sm:py-2 max-sm:px-4 rounded-md transition-colors">
-            Request Pricing
+          className="bg-yellow-500 hover:bg-yellow-600 text-purple-950 font-semibold py-3 px-8 max-sm:py-2 max-sm:px-4 rounded-md transition-colors"
+          onClick={() => window.open("https://wa.me/917907682565", "_blank")}>
+            Connect with us
           </button>
         </div>
       </div>

@@ -32,7 +32,7 @@ const WhoWeServeSection = () => {
     },
     {
       icon: <Users className="w-8 h-8" />,
-      text: "Are interested in a long-term partnership"
+      text: "Are Confident in their product , Service or solution "
     }
   ];
 

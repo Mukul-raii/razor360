@@ -38,4 +38,34 @@
     padding: 0 2rem;
   }
     
- 
+  @keyframes tickerScroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .tickerWrapper {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .ticker {
+    display: flex;
+    animation: tickerScroll 30s linear infinite; /* Default speed for larger screens */
+  }
+  
+  .tickerItem {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Faster speed for mobile */
+  @media (max-width: 640px) {
+    .ticker {
+      animation-duration: 10s; /* Reduce the animation duration to make it faster */
+    }
+  }
+  

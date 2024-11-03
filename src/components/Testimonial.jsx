@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
+import logo from '../assets/pro.svg'
 
 const TestimonialsSection = () => {
   const testimonials = {
@@ -12,21 +13,21 @@ const TestimonialsSection = () => {
         text: "Razo360 is a great example of an agency that understands modern link building and digital strategies.",
         name: "Amit Choudhary",
         role: "Business Owner",
-        avatar:""
+        avatar: logo// Replace with a reliable URL
       },
       {
         id: 2,
         text: "I was recently challenged by the Razo360 team to review their approach to link building. They follow the best practices!",
         name: "Rajiv Mehta",
         role: "Business Owner",
-        avatar:""
+        avatar: logo // Replace with a reliable URL
       },
       {
         id: 3,
         text: "These professionals are the masters when it comes to user-centric link building and SEO innovation.",
         name: "Suresh Naidu",
         role: "Business Owner",
-        avatar: ""
+        avatar: logo // Replace with a reliable URL
       }
     ],
     customers: [
@@ -35,24 +36,25 @@ const TestimonialsSection = () => {
         text: "Razo360 delivers high-quality backlinks and an easy, hands-off experience. Plus, they ensure our site stays safe from any Google penalties.",
         name: "Ravi Shekhar",
         role: "Freelancer",
-        avatar: ""
+        avatar: logo // Replace with a reliable URL
       },
       {
         id: 2,
         text: "Razo360 crafted a phenomenal link-building strategy that helped us land on high-profile sites like HubSpot. Our traffic and rankings have improved significantly!",
         name: "Ankit Patel",
         role: "Freelancer",
-        avatar: ""
+        avatar: logo // Replace with a reliable URL
       },
       {
         id: 3,
         text: "Working with Razo360 was a game-changer. Our domain authority skyrocketed within a few months, and they were always flexible to our specific needs.",
         name: "Vikram Singh",
         role: "Freelancer",
-        avatar:""
+        avatar: logo // Replace with a reliable URL
       }
     ]
   };
+  
 
   const [activeTab, setActiveTab] = useState('seoExperts');
   const currentTestimonials = testimonials[activeTab];
