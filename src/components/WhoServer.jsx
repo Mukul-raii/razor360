@@ -37,7 +37,7 @@ const WhoWeServeSection = () => {
   ];
 
   return (
-    <div className="bg-white py-16 px-4">
+    <div className="bg-white my-14 py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
@@ -56,7 +56,7 @@ const WhoWeServeSection = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {criteria.map((item, index) => (
             <div key={index} className="flex items-center gap-4 justify-center ">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-custom-pink flex items-center justify-center text-white">
+            <div className="flex-shrink-0 w-12 h-12 max-sm:w-8 max-sm:h-8 rounded-full bg-custom-pink flex items-center justify-center text-white">
                 {item.icon}
               </div>
               <div className="flex-grow">

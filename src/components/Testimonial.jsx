@@ -64,7 +64,7 @@ const TestimonialsSection = () => {
             <h2 className="text-3xl sm:text-4xl font-bold text-white text-center">
               What others have to say about razor360°
             </h2>
-            <div>
+            <div className='max-sm:flex max-sm:gap-4'>
               <button
                 onClick={() => {
                   setActiveTab('seoExperts');

@@ -41,7 +41,7 @@ export default function Hero() {
           <img
             src={arr1}
             alt="Decorative arrow 1"
-            className="absolute bottom-0 right-0 w-1/4 max-w-xs mb-4 mr-4 rounded-md opacity-50 md:opacity-100"
+            className="absolute bottom-0 right-0 w-1/4 max-w-xs  mb-4 mr-4 rounded-md opacity-50 md:opacity-100"
           />
           <img
             src={arr2}
