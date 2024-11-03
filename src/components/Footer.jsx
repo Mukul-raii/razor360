@@ -1,14 +1,17 @@
 
 import { Facebook, Linkedin } from "lucide-react"
+import logo from '../assets/With-Glow-Logo.png';
 
 export default function Component() {
   return (
     <footer   className="bg-primary text-[#b894c0] py-12 px-4  ">
       <div className="container mx-auto max-w-6xl space-y-8 flex flex-col items-center">
         {/* Logo and Tagline */}
-        <div className="text-center space-y-4">
+        <div className="text-center space-y-2">
           <a href="/" className="inline-block">
-            <h2 className="text-white text-3xl font-bold">razo360°</h2>
+    
+            <img src={logo} alt="razor360° Logo" className="w-52" />
+
           </a>
           <p className=" max-w-xl mx-auto">
             Strategically outrank your competitors with premium links from the web's best sites.

@@ -3,21 +3,6 @@ import arr1 from '../assets/arr1.webp';
 import arr2 from '../assets/arr2.webp';
 
 export default function Hero() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    handleResize();
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
   return (
     <div className="bg-primary text-white py-12 md:py-16 lg:py-24 min-h-[700px] max-sm:min-h-[650px] relative flex flex-col items-center justify-center overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
@@ -33,23 +18,21 @@ export default function Hero() {
           Generate natural links from the most influential sites in B2B SaaS.
         </p>
         <button className="bg-yellow-500 w-full sm:w-auto text-purple-900 px-8 py-3 font-semibold hover:bg-yellow-400 transition-colors rounded-md">
-         Book An Apointment
+          Book An Appointment
         </button>
       </div>
-      {!isMobile && (
-        <>
-          <img
-            src={arr1}
-            alt="Decorative arrow 1"
-            className="absolute bottom-0 right-0 w-1/4 max-w-xs  mb-4 mr-4 rounded-md opacity-50 md:opacity-100"
-          />
-          <img
-            src={arr2}
-            alt="Decorative arrow 2"
-            className="absolute bottom-0 left-0 w-1/4 max-w-xs mb-0 ml-0 rounded-md opacity-50 md:opacity-100"
-          />
-        </>
-      )}
+      
+   
+      <img
+        src={arr1}
+        alt="Decorative arrow 1"
+        className="absolute bottom-4 right-4 w-1/4 max-w-xs rounded-md opacity-100  md:opacity-100 md:bottom-0 md:right-0 md:mb-4 md:mr-4"
+      />
+      <img
+        src={arr2}
+        alt="Decorative arrow 2"
+        className="absolute bottom-4 left-4 w-1/4 max-w-xs rounded-md opacity-100 md:opacity-100 md:bottom-0 md:left-0 md:mb-0 md:ml-0"
+      />
     </div>
   );
 }
