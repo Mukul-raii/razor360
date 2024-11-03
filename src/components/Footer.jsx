@@ -1,5 +1,5 @@
 
-import { Facebook, Linkedin } from "lucide-react"
+import { Facebook, Linkedin ,Twitter, Instagram} from "lucide-react"
 import logo from '../assets/With-Glow-Logo.png';
 
 export default function Component() {
@@ -10,7 +10,7 @@ export default function Component() {
         <div className="text-center space-y-2">
           <a href="/" className="inline-block">
     
-            <img src={logo} alt="razor360° Logo" className="w-52" />
+            <img src={logo} alt="razo360° Logo" className="w-52" />
 
           </a>
           <p className=" max-w-xl mx-auto">
@@ -27,6 +27,14 @@ export default function Component() {
           <a href="#" className="hover:text-yellow-300  transition-colors">
             <Linkedin className="h-6 w-6" />
             <span className="sr-only">LinkedIn</span>
+          </a>
+          <a href="#" className="hover:text-yellow-300  transition-colors">
+            <Twitter className="h-6 w-6" />
+            <span className="sr-only">Twitter</span>
+          </a>
+          <a href="#" className="hover:text-yellow-300  transition-colors">
+            <Instagram className="h-6 w-6" />
+            <span className="sr-only">Instagram</span>
           </a>
         </div>
 

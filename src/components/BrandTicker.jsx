@@ -1,18 +1,20 @@
 import React from 'react';
 import styles from './BrandTicker.module.css';
-import logo1 from  "../assets/high-Kreo.png"
-import logo3 from  "../assets/kk12.png"
-import logo2 from  "../assets/Omin.png"
-import logo4 from  "../assets/design1.svg"
+import logo1 from  "../assets/1-2.png"
+import logo3 from  "../assets/2.png"
+import logo2 from  "../assets/3.png"
+import logo4 from  "../assets/4.png"
+import logo5 from  "../assets/5.png"
+import logo6 from  "../assets/1111c.png"
 
 function BrandTicker() {
   const brands = [
     { name: 'LegalZoom', logo: logo1 },
     { name: 'Surfshark', logo: logo2 },
-    { name: 'Guru', logo: 'https://via.placeholder.com/100?text=Guru' },
-    { name: 'Resume.io', logo: 'https://via.placeholder.com/100?text=Resume.io' },
+    { name: 'Guru', logo: logo3 },
     { name: 'Aspiration', logo: logo4 },
-    { name: 'Vonage', logo:logo3 },
+    { name: 'Vonage', logo:logo5 },
+    { name: 'Resume.io', logo: logo6 },
   ];
 
   return (

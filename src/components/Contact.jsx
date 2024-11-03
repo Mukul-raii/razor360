@@ -31,7 +31,7 @@ const ContactSection = () => {
           </div>
           <div className="flex items-center justify-center text-center gap-2">
             <Check className="w-5 h-5" />
-            <span>Whether razor360° is the right team for you</span>
+            <span>Whether razo360° is the right team for you</span>
           </div>
         </div>
       </div>

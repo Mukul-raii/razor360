@@ -9,14 +9,14 @@ const TestimonialsSection = () => {
     seoExperts: [
       {
         id: 1,
-        text: "Razor360 is a great example of an agency that understands modern link building and digital strategies.",
+        text: "Razo360 is a great example of an agency that understands modern link building and digital strategies.",
         name: "Amit Choudhary",
         role: "Growth Advisor | ex-Shopify, G2, Atlassian",
         avatar: "https://randomuser.me/api/portraits/men/32.jpg"
       },
       {
         id: 2,
-        text: "I was recently challenged by the Razor360 team to review their approach to link building. They follow the best practices!",
+        text: "I was recently challenged by the Razo360 team to review their approach to link building. They follow the best practices!",
         name: "Rajiv Mehta",
         role: "Freelance SEO | Owner of SEOjobs.com",
         avatar: "https://randomuser.me/api/portraits/men/44.jpg"
@@ -32,21 +32,21 @@ const TestimonialsSection = () => {
     customers: [
       {
         id: 1,
-        text: "Razor360 delivers high-quality backlinks and an easy, hands-off experience. Plus, they ensure our site stays safe from any Google penalties.",
+        text: "Razo360 delivers high-quality backlinks and an easy, hands-off experience. Plus, they ensure our site stays safe from any Google penalties.",
         name: "Ravi Shekhar",
         role: "CEO – Testimonial Hero",
         avatar: "https://randomuser.me/api/portraits/men/85.jpg"
       },
       {
         id: 2,
-        text: "Razor360 crafted a phenomenal link-building strategy that helped us land on high-profile sites like HubSpot. Our traffic and rankings have improved significantly!",
+        text: "Razo360 crafted a phenomenal link-building strategy that helped us land on high-profile sites like HubSpot. Our traffic and rankings have improved significantly!",
         name: "Ankit Patel",
         role: "CEO – Great Lakes Advisory",
         avatar: "https://randomuser.me/api/portraits/men/52.jpg"
       },
       {
         id: 3,
-        text: "Working with Razor360 was a game-changer. Our domain authority skyrocketed within a few months, and they were always flexible to our specific needs.",
+        text: "Working with Razo360 was a game-changer. Our domain authority skyrocketed within a few months, and they were always flexible to our specific needs.",
         name: "Vikram Singh",
         role: "CEO – KeyCommerce",
         avatar: "https://randomuser.me/api/portraits/men/77.jpg"
@@ -64,7 +64,7 @@ const TestimonialsSection = () => {
           {/* Header */}
           <div className="flex flex-col justify-center items-center p-12 gap-4">
             <h2 className="text-3xl sm:text-4xl font-bold text-white text-center">
-              What others have to say about razor360°
+              What others have to say about razo360°
             </h2>
             <div className="flex max-sm:gap-4 gap-4" >
               <button

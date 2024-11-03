@@ -1,35 +1,20 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Features from "./components/Feautres";
-import BrandTicker from "./components/BrandTicker";
-import LayoutContent from "./components/LayoutContent";
-import Section4 from "./components/Section4";
-import DifferentiationSection from "./components/DiffrentialSec";
-import TestimonialsSection from "./components/Testimonial";
-import WhoWeServeSection from "./components/WhoServer";
-import ContactSection from "./components/Contact";
-import FAQSection from "./components/FaQSection";
-import FooterSection from "./components/Footer";
-// import Testimonials from './components/Testimonials';
-//import FAQ from './components/FAQ';
-//import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="">
-      <Navbar />
-      <Hero />
-      <BrandTicker />
-      <Features />
-      <Section4 />
-      <DifferentiationSection />
-      <TestimonialsSection />
-      <WhoWeServeSection />
-      <ContactSection />
-      <FAQSection />
-      <FooterSection />
-    </div>
+    <Router>
+  
+  <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+    </Router>
   );
 }
 

@@ -11,6 +11,7 @@ export default {
         primary: '#3a032d',
         secondry:'#f7ebf4',
         contactSecondry:'#844375',
+        "yellows":"#ffeeb5",
         'custom-pink': 'rgb(173, 49, 144)',
       },
       screens: {
