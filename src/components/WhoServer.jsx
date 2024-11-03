@@ -55,8 +55,8 @@ const WhoWeServeSection = () => {
         {/* Criteria Grid */}
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {criteria.map((item, index) => (
-            <div key={index} className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-purple-600">
+            <div key={index} className="flex items-center gap-4 justify-center ">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-custom-pink flex items-center justify-center text-white">
                 {item.icon}
               </div>
               <div className="flex-grow">

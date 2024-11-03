@@ -9,7 +9,8 @@ export default {
       colors:{
         primary: '#3a032d',
         secondry:'#f7ebf4',
-        contactSecondry:'#844375'
+        contactSecondry:'#844375',
+        'custom-pink': 'rgb(173, 49, 144)',
       }
     },
   },

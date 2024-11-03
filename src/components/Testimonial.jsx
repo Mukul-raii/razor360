@@ -9,50 +9,51 @@ const TestimonialsSection = () => {
     seoExperts: [
       {
         id: 1,
-        text: "These guys are the masters when it comes to user-centric link building.",
-        name: "Gaetano Nino DiNardi",
-        role: "Growth Advisor",
-        avatar: "/api/placeholder/48/48"
+        text: "Razor360 is a great example of an agency that understands modern link building and digital strategies.",
+        name: "Amit Choudhary",
+        role: "Growth Advisor | ex-Shopify, G2, Atlassian",
+        avatar: "https://randomuser.me/api/portraits/men/32.jpg"
       },
       {
         id: 2,
-        text: "Their SEO strategies have transformed our online presence completely.",
-        name: "Sarah Johnson",
-        role: "SEO Consultant",
-        avatar: "/api/placeholder/48/48"
+        text: "I was recently challenged by the Razor360 team to review their approach to link building. They follow the best practices!",
+        name: "Rajiv Mehta",
+        role: "Freelance SEO | Owner of SEOjobs.com",
+        avatar: "https://randomuser.me/api/portraits/men/44.jpg"
       },
       {
         id: 3,
-        text: "The most innovative approach to technical SEO I've seen.",
-        name: "Mike Anderson",
-        role: "Digital Strategist",
-        avatar: "/api/placeholder/48/48"
+        text: "These professionals are the masters when it comes to user-centric link building and SEO innovation.",
+        name: "Suresh Naidu",
+        role: "Growth Advisor",
+        avatar: "https://randomuser.me/api/portraits/men/68.jpg"
       }
     ],
     customers: [
       {
         id: 1,
-        text: "Doubled our organic traffic in just 3 months.",
-        name: "Emily Roberts",
-        role: "Marketing Director",
-        avatar: "/api/placeholder/48/48"
+        text: "Razor360 delivers high-quality backlinks and an easy, hands-off experience. Plus, they ensure our site stays safe from any Google penalties.",
+        name: "Ravi Shekhar",
+        role: "CEO – Testimonial Hero",
+        avatar: "https://randomuser.me/api/portraits/men/85.jpg"
       },
       {
         id: 2,
-        text: "The ROI from their link building campaign exceeded expectations.",
-        name: "David Chen",
-        role: "E-commerce Owner",
-        avatar: "/api/placeholder/48/48"
+        text: "Razor360 crafted a phenomenal link-building strategy that helped us land on high-profile sites like HubSpot. Our traffic and rankings have improved significantly!",
+        name: "Ankit Patel",
+        role: "CEO – Great Lakes Advisory",
+        avatar: "https://randomuser.me/api/portraits/men/52.jpg"
       },
       {
         id: 3,
-        text: "Best investment we've made in our digital marketing strategy.",
-        name: "Lisa Thompson",
-        role: "Business Owner",
-        avatar: "/api/placeholder/48/48"
+        text: "Working with Razor360 was a game-changer. Our domain authority skyrocketed within a few months, and they were always flexible to our specific needs.",
+        name: "Vikram Singh",
+        role: "CEO – KeyCommerce",
+        avatar: "https://randomuser.me/api/portraits/men/77.jpg"
       }
     ]
   };
+  
 
   const [activeTab, setActiveTab] = useState('seoExperts');
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -61,8 +62,8 @@ const TestimonialsSection = () => {
 
   return (
     <div className=' flex justify-center px-64'>
-
-<div className=' bg-secondry w-full text-primary rounded-b-lg '>
+ 
+<div className=' bg-secondry w-full text-primary rounded-b-lg flex flex-col items-center justify-center'>
     <div className="w-full h-[207px] mx-auto  bg-primary justify-evenly  flex flex-col rounded-t-lg">
       {/* Header */}
 
@@ -81,7 +82,7 @@ const TestimonialsSection = () => {
           className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
             ${activeTab === 'seoExperts' 
               ? 'bg-yellow-500 text-purple-950' 
-              : 'bg-purple-800 text-white'}`}
+              : 'bg-pink-700 text-white'}`}
         >
           SEO Experts
         </button>
@@ -93,7 +94,7 @@ const TestimonialsSection = () => {
           className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
             ${activeTab === 'customers' 
               ? 'bg-yellow-500 text-purple-950' 
-              : 'bg-purple-800 text-white'}`}
+              : 'bg-pink-700 text-white'}`}
         >
           Customers
         </button>
@@ -102,12 +103,12 @@ const TestimonialsSection = () => {
       </div>
       </div>
       {/* Testimonial Content */}
-      <div className="relative min-h-[400px] flex flex-col justify-center items-center gap-12 rounded-b-lg">
+      <div className="relative min-h-[400px] w-2/3 flex flex-col justify-center items-center gap-12 rounded-b-lg">
         <div className="text-center">
           <p className="text-xl mb-8">
             "{currentTestimonials[currentSlide].text}"
           </p>
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex items-center justify-center gap-4 mt-16">
             <img
               src={currentTestimonials[currentSlide].avatar}
               alt={currentTestimonials[currentSlide].name}

@@ -13,10 +13,10 @@ function Navbar() {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
-              <a href="#" className="  hover:text-purple-900 px-3 py-2">Features</a>
-              <a href="#" className="  hover:text-purple-900 px-3 py-2">Pricing</a>
-              <a href="#" className="  hover:text-purple-900 px-3 py-2">About</a>
-              <button className="bg-purple-900 text-white px-4 py-2 rounded-md hover:bg-purple-800">
+              <a href="#" className="  hover:text-yellow-300  px-3 py-2">Features</a>
+              <a href="#" className="  hover:text-yellow-300  px-3 py-2">Pricing</a>
+              <a href="#" className="  hover:text-yellow-300  px-3 py-2">About</a>
+              <button className="bg-yellow-500 text-primary px-4 py-2 rounded-md hover:bg-yellow-400">
                 Get Started
               </button>
             </div>
