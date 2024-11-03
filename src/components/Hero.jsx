@@ -17,7 +17,7 @@ function Hero() {
   Generate natural links from the most influential sites in B2B SaaS.
 </p>
 
-        <button className="bg-yellow-500 text-purple-900 px-8 py-3 rounded-md font-semibold hover:bg-yellow-400 transition-colors">
+        <button className="bg-yellow-500 w-[231px] text-purple-900 px-8 py-3  font-semibold hover:bg-yellow-400 transition-colors">
           Start Free Trial
         </button>
       </div>

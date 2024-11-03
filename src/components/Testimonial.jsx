@@ -81,8 +81,8 @@ const TestimonialsSection = () => {
           }}
           className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
             ${activeTab === 'seoExperts' 
-              ? 'bg-yellow-500 text-purple-950' 
-              : 'bg-pink-700 text-white'}`}
+              ? 'bg-yellow-500 text-primary' 
+              : 'bg-contactSecondry text-white'}`}
         >
           SEO Experts
         </button>
@@ -93,8 +93,8 @@ const TestimonialsSection = () => {
           }}
           className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
             ${activeTab === 'customers' 
-              ? 'bg-yellow-500 text-purple-950' 
-              : 'bg-pink-700 text-white'}`}
+              ? 'bg-yellow-500 text-primary' 
+              : 'bg-contactSecondry text-white'}`}
         >
           Customers
         </button>
@@ -103,7 +103,7 @@ const TestimonialsSection = () => {
       </div>
       </div>
       {/* Testimonial Content */}
-      <div className="relative min-h-[400px] w-2/3 flex flex-col justify-center items-center gap-12 rounded-b-lg">
+      <div className="relative min-h-[400px] w-3/4 flex flex-col justify-center items-center gap-12 rounded-b-lg">
         <div className="text-center">
           <p className="text-xl mb-8">
             "{currentTestimonials[currentSlide].text}"
@@ -118,7 +118,7 @@ const TestimonialsSection = () => {
               <p className="font-medium">
                 {currentTestimonials[currentSlide].name}
               </p>
-              <p className="text-purple-300">
+              <p className="text-primary">
                 {currentTestimonials[currentSlide].role}
               </p>
             </div>
