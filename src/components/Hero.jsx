@@ -19,7 +19,7 @@ export default function Hero() {
 
         </p>
         <button
-          className="bg-yellow-500 w-full sm:w-auto text-purple-900 px-8 max-sm:px-3 py-3 font-semibold hover:bg-yellow-400 transition-colors rounded-sm"
+          className="bg-yellow-500 w-full sm:w-auto text-primary px-8 max-sm:px-3 py-3 font-semibold hover:bg-yellow-400 transition-colors rounded-sm"
           style={{ boxShadow: "0 8px 38px rgba(171, 28, 187, 0.6)" }}
           onClick={() => window.open("https://wa.me/917907682565", "_blank")}
         >
